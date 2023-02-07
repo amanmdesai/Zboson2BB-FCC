@@ -1,0 +1,2 @@
+DelphesPythia8_EDM4HEP Detector/card_IDEA.tcl Detector/edm4hep_IDEA.tcl Generator/p8_ee_Z_Zbb_ecm125.cmd Events/p8_ee_Z_Zbb_ecm125.root
+DelphesPythia8_EDM4HEP Detector/card_IDEA.tcl Detector/edm4hep_IDEA.tcl Generator/p8_ee_Z_Zcc_ecm125.cmd Events/p8_ee_Z_Zcc_ecm125.root

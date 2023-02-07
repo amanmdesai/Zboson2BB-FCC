@@ -1,0 +1,15 @@
+*.root
+*.hepmc
+*.json
+*.output
+*.input
+*.smod
+*.mod
+*.o
+*makefile
+*f90
+*log
+*FCCAnalyses
+*__pycache__
+*.lo
+plots/
