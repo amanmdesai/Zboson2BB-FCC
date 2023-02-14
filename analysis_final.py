@@ -18,8 +18,8 @@ procDict = "../GenScripts/FCCee_procDict_spring2021_IDEA.json"
 doTree = True
 
 ###Dictionnay of the list of cuts. The key is the name of the selection that will be added to the output file
-cutList = {"sel0":"n_recojets>=2",
-           "sel1":"num_btag>1"}
+cutList = {"sel0":"n_recojets>=0",
+           "sel1":"num_btag>0"}
 #Dictionary for the ouput variable/hitograms. The key is the name of the variable in the output files. "name" is the name of the variable in the input file, "title" is the x-axis label of the histogram, "bin" the number of bins of the histogram, "xmin" the minimum x-axis value and "xmax" the maximum x-axis value.
 histoList = {
     "jet_pt":{"name":"jet_pt","title":"Jet P_{T} [GeV]","bin":25,"xmin":0,"xmax":100},
@@ -30,4 +30,5 @@ histoList = {
     "jet_btag":{"name":"jet_btag","title":"btag jets","bin":10,"xmin":0,"xmax":10},
     "num_btag":{"name":"num_btag","title":"Number of b jets","bin":10,"xmin":0,"xmax":10},
     "jet_reso_mass":{"name":"jet_reso_mass","title":"#M_jj [GeV]","bin":20,"xmin":40,"xmax":120},
+    "jets_reso_eekt_mass":{"name":"jets_reso_eekt_mass","title":"#M_jj [GeV]","bin":20,"xmin":40,"xmax":120},
 }
