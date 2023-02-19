@@ -31,4 +31,6 @@ histoList = {
     "num_btag":{"name":"num_btag","title":"Number of b jets","bin":10,"xmin":0,"xmax":10},
     "jet_reso_mass":{"name":"jet_reso_mass","title":"#M_jj [GeV]","bin":20,"xmin":40,"xmax":120},
     "jets_reso_eekt_mass":{"name":"jets_reso_eekt_mass","title":"#M_jj [GeV]","bin":20,"xmin":40,"xmax":120},
+    "sel_jets_pt":{"name":"sel_jets_pt","title":"Jet P_{T} [GeV]","bin":25,"xmin":0,"xmax":100},
+
 }

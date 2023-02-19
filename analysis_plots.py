@@ -20,7 +20,8 @@ variables =   ["n_recojets",
             "jet_btag",
             "num_btag",
             "jet_reso_mass",
-            "jets_reso_eekt_mass"]
+            "jets_reso_eekt_mass",
+            "sel_jets_pt"]
 
 ###Dictionary with the analysis name as a key, and the list of selections to be plotted for this analysis. The name of the selections should be the same than in the final selection
 selections = {}

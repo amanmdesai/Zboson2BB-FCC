@@ -44,6 +44,10 @@ class RDFanalysis():
             .Define("jets_reso_eekt", "JetClusteringUtils::resonanceBuilder(91)(jets_eekt1)")
             .Define("jets_reso_eekt_mass", "JetClusteringUtils::get_m(jets_reso_eekt)")
 
+            .Define("sel_jets", "JetClusteringUtils::sel_pt(10.)(jets_eekt1)")
+
+            .Define("sel_jets_pt", "JetClusteringUtils::get_pt(sel_jets)")
+
             #.Define("jets_reso_eekt", "JetClusteringUtils::recoilbuilder::recoilbuilder(jets_eekt1)")
 
         )
@@ -60,6 +64,7 @@ class RDFanalysis():
             "jet_btag",
             "num_btag",
             "jet_reso_mass",
-            "jets_reso_eekt_mass"
+            "jets_reso_eekt_mass",
+            "sel_jets_pt"
         ]
         return branchList
